@@ -99,6 +99,32 @@ Decentralized autonomous organizations are one particularly ambitious breed of d
 
 
 
+***
+
+## Block
+- Block Size
+- Block Header
+- Transaction Counter
+- Transactions: Come from Merkle Tree
+
+### Field
+- Version
+- Previous Block Hash
+- Merkle Root Hash 
+- Time Stamp
+- Difficalty Target 
+- NONLE
+
+### How Blocks linked together
+- Previous Hash
+- Time Stamp
+- Random Nonce
+- Root Hash
+- All Transactions
+
+The way they link together, take the prevous entire hashed block with the next block
+
+### Genesis Block (Statically Created)
 
 
 ***
